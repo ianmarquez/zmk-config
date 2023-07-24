@@ -43,7 +43,7 @@
 &bt BT_CLR &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3   &bt BT_SEL 4                       &trans    &trans    &trans       &trans    &trans    &trans
 &trans     &trans        &trans             &trans            &trans         &trans                             &trans    &trans    &kp UP       &trans    &trans    &trans
 &trans     &trans        &ext_power EP_OFF  &ext_power EP_ON  &trans         &trans       &kp LPAR   &kp RPAR   &trans    &kp MINUS &kp KP_PLUS  &kp LBRC  &kp RBRC  &kp PIPE
-                                                              &trans         &trans       &trans     &trans     &kp DLLR  &trans    &trans       &trans
+                                            &trans            &trans         &trans       &trans     &trans     &kp DLLR  &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
