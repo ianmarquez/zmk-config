@@ -51,7 +51,7 @@
 &kp TAB    &kp Q                   &kp W             &kp E             &kp R              &kp T                               &kp Y   &kp U               &kp I                  &kp O                   &kp P                         &kp GRAVE
 &kp LALT   &kp A                   &kp S             &kp D             &kp F              &kp G                               &kp H   &kp J               &kp K                  &kp L                   &kp SEMI                      &kp SQT
 &kp LSHFT  &hrm_left LEFT_SHIFT Z  &hrm_left LALT X  &hrm_left LGUI C  &hrm_left LCTRL V  &kp B   &kp LBKT          &kp RBKT  &kp N   &hrm_right RCTRL M  &hrm_right RCMD COMMA  &hrm_right RALT PERIOD  &hrm_right RIGHT_SHIFT SLASH  &kp BSLH
-                                                     &mt LSHFT ESC     &mt LGUI TAB       &mo 2   &mt LGUI SPACE    &kp RET   &mo 1   &mt RCTRL BSPC      &kp RGUI
+                                                     &kp ESC           &kp LCMD           &mo 2   &mt LGUI SPACE    &kp RET   &mo 1   &kp RCTRL           &kp RGUI
             >;
         };
 
