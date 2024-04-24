@@ -85,8 +85,8 @@
             bindings = <
 &none  &none  &none      &none      &none      &none                                       &none             &none      &none   &none  &none  &none
 &none  &none  &none      &none      &none      &kp C_VOLUME_UP                             &none             &none      &none   &none  &none  &none
-&none  &none  &none      &none      &none      &kp C_VOLUME_DOWN                           &mkp LCLK         &mkp RCLK  &trans  &none  &none  &none
-&none  &none  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp K_MUTE         &none         &none      &kp RC(UP_ARROW)  &mkp MCLK  &none   &none  &none  &none
+&none  &none  &none      &none      &none      &kp C_VOLUME_DOWN                           &mkp MCLK         &mkp LCLK  &trans  &none  &none  &none
+&none  &none  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp K_MUTE         &none         &none      &kp RC(UP_ARROW)  &mkp RCLK  &none   &none  &none  &none
                          &none      &kp LCMD   &none              &kp LSHIFT    &kp RCTRL  &none             &none      &none
             >;
         };
