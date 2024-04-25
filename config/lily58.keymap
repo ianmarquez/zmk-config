@@ -53,41 +53,41 @@
 
         base {
             bindings = <
-&none  &none             &none  &none  &none                   &none                                      &none            &none                     &none      &none       &none          &none
-&none  &kp Q             &kp W  &kp E  &kp R                   &kp T                                      &kp Y            &kp U                     &kp I      &kp O       &kp P          &none
-&none  &hrm_left LALT A  &kp S  &kp D  &hrm_left LEFT_SHIFT F  &kp G                                      &kp H            &hrm_right RIGHT_SHIFT J  &kp K      &kp L       &kp SEMICOLON  &none
-&none  &kp Z             &kp X  &kp C  &kp V                   &kp B      &none          &none            &kp N            &kp M                     &kp COMMA  &kp PERIOD  &kp SLASH      &none
-                                &none  &hrm_left LGUI ESC      &lt 1 TAB  &lt 3 SPACE    &mt RCTRL ENTER  &lt 2 BACKSPACE  &none                     &none
+&none  &none             &none  &none  &none             &none                                      &none            &none              &none      &none       &none          &none
+&none  &kp Q             &kp W  &kp E  &kp R             &kp T                                      &kp Y            &kp U              &kp I      &kp O       &kp P          &none
+&none  &hrm_left LALT A  &kp S  &kp D  &hrm_left LCMD F  &kp G                                      &kp H            &hrm_right RCMD J  &kp K      &kp L       &kp SEMICOLON  &none
+&none  &kp Z             &kp X  &kp C  &kp V             &kp B      &none          &none            &kp N            &kp M              &kp COMMA  &kp PERIOD  &kp ESC        &none
+                                &none  &kp LEFT_SHIFT    &lt 1 TAB  &lt 3 SPACE    &mt RCTRL ENTER  &lt 2 BACKSPACE  &none              &none
             >;
         };
 
         Symbols {
             bindings = <
-&none  &none      &none            &none              &none                 &none                                  &none        &none      &none         &none         &none      &none
-&none  &kp PIPE   &kp EXCLAMATION  &kp AMPERSAND      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &kp MINUS    &kp PLUS   &kp EQUAL     &kp ASTERISK  &kp SLASH  &none
-&none  &kp GRAVE  &kp SQT          &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                      &kp LEFT     &kp DOWN   &kp UP_ARROW  &kp RIGHT     &kp BSLH   &none
-&none  &none      &kp POUND        &kp UNDER          &kp LEFT_BRACE        &kp RIGHT_BRACE        &none    &none  &kp PERCENT  &kp TILDE  &kp AT_SIGN   &kp DOLLAR    &kp CARET  &none
-                                   &none              &none                 &trans                 &none    &none  &none        &none      &none
+&none  &none         &none            &none              &none                 &none                                  &none        &none      &none         &none         &none      &none
+&none  &kp PIPE      &kp EXCLAMATION  &kp AMPERSAND      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &kp MINUS    &kp PLUS   &kp EQUAL     &kp ASTERISK  &kp SLASH  &none
+&none  &kp GRAVE     &kp SQT          &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                      &kp LEFT     &kp DOWN   &kp UP_ARROW  &kp RIGHT     &kp BSLH   &none
+&none  &kp QUESTION  &kp POUND        &kp UNDER          &kp LEFT_BRACE        &kp RIGHT_BRACE        &none    &none  &kp PERCENT  &kp TILDE  &kp AT_SIGN   &kp DOLLAR    &kp CARET  &none
+                                      &none              &none                 &trans                 &none    &none  &none        &none      &none
             >;
         };
 
         Numbers {
             bindings = <
-&sys_reset  &soft_off         &none              &none   &none     &none                                      &none         &none         &none           &none   &none   &none
-&none       &kp ESC           &kp F1             &kp F5  &kp F12   &kp LC(LG(LS(NUMBER_4)))                   &none         &none         &none           &none   &none   &none
-&none       &kp N1            &kp N2             &kp N3  &kp N4    &kp N5                                     &kp N6        &kp N7        &kp N8          &kp N9  &kp N0  &none
-&none       &ext_power EP_ON  &ext_power EP_OFF  &none   &none     &none                     &none    &none   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_CLR_ALL  &none   &none   &none
-                                                 &none   &kp LGUI  &none                     &none    &trans  &none         &none         &none
+&sys_reset  &soft_off         &none              &none   &none     &none                    &none         &none         &none           &none   &none   &none
+&none       &kp ESC           &kp F1             &kp F5  &kp F12   &none                    &none         &none         &none           &none   &none   &none
+&none       &kp N1            &kp N2             &kp N3  &kp N4    &kp N5                   &kp N6        &kp N7        &kp N8          &kp N9  &kp N0  &none
+&none       &ext_power EP_ON  &ext_power EP_OFF  &none   &none     &none   &none    &none   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_CLR_ALL  &none   &none   &none
+                                                 &none   &kp LGUI  &none   &none    &trans  &none         &none         &none
             >;
         };
 
         Mouse {
             bindings = <
-&none  &none  &none      &none      &none      &none                                       &none             &none      &none   &none  &none  &none
-&none  &none  &none      &none      &none      &kp C_VOLUME_UP                             &none             &none      &none   &none  &none  &none
-&none  &none  &none      &none      &none      &kp C_VOLUME_DOWN                           &mkp MCLK         &mkp LCLK  &trans  &none  &none  &none
-&none  &none  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp K_MUTE         &none         &none      &kp RC(UP_ARROW)  &mkp RCLK  &none   &none  &none  &none
-                         &none      &kp LCMD   &none              &kp LSHIFT    &kp RCTRL  &none             &none      &none
+&none  &none  &none      &none      &none                     &none                                       &none             &none      &none   &none  &none  &none
+&none  &none  &none      &none      &kp LC(LG(LS(NUMBER_3)))  &kp C_VOLUME_UP                             &none             &none      &none   &none  &none  &none
+&none  &none  &none      &none      &none                     &kp C_VOLUME_DOWN                           &mkp MCLK         &mkp LCLK  &trans  &none  &none  &none
+&none  &none  &kp LG(X)  &kp LG(C)  &kp LG(V)                 &kp K_MUTE         &none         &none      &kp RC(UP_ARROW)  &mkp RCLK  &none   &none  &none  &none
+                         &none      &kp LCMD                  &none              &kp LSHIFT    &kp RCTRL  &none             &none      &none
             >;
         };
     };
