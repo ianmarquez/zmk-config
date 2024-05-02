@@ -55,19 +55,19 @@
             bindings = <
 &none  &none  &none  &none  &none           &none                                      &none            &none  &none          &none     &none      &none
 &none  &kp Q  &kp W  &kp E  &kp R           &kp T                                      &kp Y            &kp U  &kp I          &kp O     &kp P      &none
-&none  &kp A  &kp S  &kp D  &kp F           &kp G                                      &kp H            &kp J  &kp K          &kp L     &kp ESC    &none
+&none  &kp A  &kp S  &kp D  &kp F           &kp G                                      &kp H            &kp J  &kp K          &kp L     &kp SEMI   &none
 &none  &kp Z  &kp X  &kp C  &kp V           &kp B      &none          &none            &kp N            &kp M  &kp RIGHT_ALT  &kp RGUI  &kp RCTRL  &none
-                     &none  &kp LEFT_SHIFT  &lt 1 TAB  &lt 3 SPACE    &mt RCTRL ENTER  &lt 2 BACKSPACE  &none  &none
+                     &none  &mt LSHIFT ESC  &lt 1 TAB  &lt 3 SPACE    &mt RCTRL ENTER  &lt 2 BACKSPACE  &none  &none
             >;
         };
 
         Symbols {
             bindings = <
-&none  &none         &none            &none              &none                 &none                                     &none        &none       &none          &none             &none      &none
-&none  &kp PIPE      &kp EXCLAMATION  &kp AMPERSAND      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                     &kp MINUS    &kp PLUS    &kp EQUAL      &kp ASTERISK      &kp SLASH  &none
-&none  &kp GRAVE     &kp SQT          &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                         &kp COMMA    &kp PERIOD  &kp LESS_THAN  &kp GREATER_THAN  &kp BSLH   &none
-&none  &kp QUESTION  &kp POUND        &kp UNDER          &kp LEFT_BRACE        &kp RIGHT_BRACE        &none    &none     &kp PERCENT  &kp TILDE   &kp AT_SIGN    &kp DOLLAR        &kp CARET  &none
-                                      &none              &none                 &trans                 &none    &kp SEMI  &kp COLON    &none       &none
+&none  &none      &none            &none              &none                 &none                                     &none        &none       &none          &none             &none          &none
+&none  &kp PIPE   &kp EXCLAMATION  &kp AMPERSAND      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                     &kp MINUS    &kp PLUS    &kp EQUAL      &kp ASTERISK      &kp BACKSLASH  &none
+&none  &kp GRAVE  &kp SQT          &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                         &kp COMMA    &kp PERIOD  &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH      &none
+&none  &kp CARET  &kp POUND        &kp UNDER          &kp LEFT_BRACE        &kp RIGHT_BRACE        &none    &none     &kp PERCENT  &kp TILDE   &kp AT_SIGN    &kp DOLLAR        &kp QUESTION   &none
+                                   &none              &none                 &trans                 &none    &kp SEMI  &kp COLON    &none       &none
             >;
         };
 
