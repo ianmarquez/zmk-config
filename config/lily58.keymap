@@ -47,11 +47,11 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp N1                  &kp N2            &kp N3                &kp N4             &kp N5                              &kp N6  &kp N7                      &kp N8             &kp N9             &kp N0                  &kp BSPC
-&kp TAB    &kp Q                   &kp W             &kp E                 &kp R              &kp T                               &kp Y   &kp U                       &kp I              &kp O              &kp P                   &kp GRAVE
-&kp LALT   &hrm_left LEFT_SHIFT A  &hrm_left LALT S  &hrm_left LEFT_WIN D  &hrm_left LCTRL F  &kp G                               &kp H   &hrm_right RIGHT_CONTROL J  &hrm_right RGUI K  &hrm_right LALT L  &hrm_right RSHIFT SEMI  &kp SQT
-&kp LSHFT  &kp Z                   &kp X             &kp C                 &kp V              &kp B   &kp LBKT          &kp RBKT  &kp N   &kp M                       &kp COMMA          &kp DOT            &kp FSLH                &kp BSLH
-                                                     &mt LSHFT ESC         &mt LGUI TAB       &mo 2   &mt LGUI SPACE    &kp RET   &mo 1   &mt RCTRL BSPC              &kp RGUI
+&kp ESC    &kp N1                  &kp N2            &kp N3            &kp N4            &kp N5                              &kp N6  &kp N7             &kp N8                 &kp N9                  &kp N0                        &kp BSPC
+&kp TAB    &kp Q                   &kp W             &kp E             &kp R             &kp T                               &kp Y   &kp U              &kp I                  &kp O                   &kp P                         &kp GRAVE
+&kp LALT   &kp A                   &kp S             &kp D             &kp F             &kp G                               &kp H   &kp J              &kp K                  &kp L                   &kp SEMI                      &kp SQT
+&kp LSHFT  &hrm_left LEFT_SHIFT Z  &hrm_left LALT X  &hrm_left LGUI C  &hrm_left LGUI V  &kp B   &kp LBKT          &kp RBKT  &kp N   &hrm_right RGUI M  &hrm_right RCMD COMMA  &hrm_right RALT PERIOD  &hrm_right RIGHT_SHIFT SLASH  &kp BSLH
+                                                     &mt LSHFT ESC     &mt LGUI TAB      &mo 2   &mt LGUI SPACE    &kp RET   &mo 1   &mt RCTRL BSPC     &kp RGUI
             >;
         };
 
