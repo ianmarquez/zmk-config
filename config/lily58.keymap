@@ -53,11 +53,11 @@
 
         base {
             bindings = <
-&none  &none             &none  &none  &none               &none                                               &none            &none  &none      &none       &none            &none
-&none  &kp Q             &kp W  &kp E  &kp R               &kp T                                               &kp Y            &kp U  &kp I      &kp O       &kp P            &none
-&none  &hrm_left LALT A  &kp S  &kp D  &kp F               &kp G                                               &kp H            &kp J  &lt 3 K    &kp L       &lt 3 SEMICOLON  &none
-&none  &kp Z             &kp X  &kp C  &kp V               &kp B      &none                   &none            &kp N            &kp M  &kp COMMA  &kp PERIOD  &kp SLASH        &none
-                                &none  &hrm_left LGUI ESC  &lt 1 TAB  &mt LEFT_SHIFT SPACE    &mt RCTRL ENTER  &lt 2 BACKSPACE  &none  &none
+&none  &none             &none  &none  &none                &none                                      &none            &none                     &none      &none       &none          &none
+&none  &kp Q             &kp W  &kp E  &kp R                &kp T                                      &kp Y            &kp U                     &kp I      &kp O       &kp P          &none
+&none  &hrm_left LALT A  &kp S  &kp D  &hrm_right LSHIFT F  &kp G                                      &kp H            &hrm_right RIGHT_SHIFT J  &kp K      &kp L       &kp SEMICOLON  &none
+&none  &kp Z             &kp X  &kp C  &kp V                &kp B      &none          &none            &kp N            &kp M                     &kp COMMA  &kp PERIOD  &kp SLASH      &none
+                                &none  &hrm_left LGUI ESC   &lt 1 TAB  &lt 3 SPACE    &mt RCTRL ENTER  &lt 2 BACKSPACE  &none                     &none
             >;
         };
 
