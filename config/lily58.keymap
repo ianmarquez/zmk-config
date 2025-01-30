@@ -64,7 +64,7 @@
         Symbols {
             bindings = <
 &none  &none              &none                 &none                  &none             &none                              &none        &none      &none         &none         &none      &none
-&none  &kp ESCAPE         &kp EXCLAMATION       &kp AMPERSAND          &kp PIPE          &kp UNDERSCORE                     &kp MINUS    &kp PLUS   &kp EQUAL     &kp ASTERISK  &kp SLASH  &none
+&none  &none              &kp EXCLAMATION       &kp AMPERSAND          &kp PIPE          &kp UNDERSCORE                     &kp MINUS    &kp PLUS   &kp EQUAL     &kp ASTERISK  &kp SLASH  &none
 &none  &kp DOUBLE_QUOTES  &kp SQT               &kp GRAVE              &kp LEFT_BRACKET  &kp RIGHT_BRACKET                  &kp LEFT     &kp DOWN   &kp UP_ARROW  &kp RIGHT     &kp BSLH   &none
 &none  &kp POUND          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE    &none    &none  &kp PERCENT  &kp TILDE  &kp AT_SIGN   &kp DOLLAR    &kp CARET  &none
                                                 &none                  &none             &trans             &none    &none  &none        &none      &none
@@ -74,7 +74,7 @@
         Numbers {
             bindings = <
 &sys_reset  &soft_off         &none              &none           &none     &none                                      &none   &none   &none   &none   &none  &none
-&none       &kp F1            &kp F5             &kp F12         &none     &kp LC(LG(LS(NUMBER_4)))                   &kp N7  &kp N8  &kp N9  &none   &none  &none
+&none       &kp ESC           &kp F1             &kp F5          &kp F12   &kp LC(LG(LS(NUMBER_4)))                   &kp N7  &kp N8  &kp N9  &none   &none  &none
 &none       &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_CLR_ALL  &kp LGUI  &none                                      &kp N4  &kp N5  &kp N6  &kp N0  &none  &none
 &none       &ext_power EP_ON  &ext_power EP_OFF  &none           &none     &none                     &none    &none   &kp N1  &kp N2  &kp N3  &none   &none  &none
                                                  &none           &none     &none                     &none    &trans  &none   &none   &none
