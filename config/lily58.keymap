@@ -73,21 +73,21 @@
 
         Numbers {
             bindings = <
-&sys_reset  &soft_off                 &none              &none   &none   &none                    &none    &none    &none         &none         &none           &none
-&none       &kp LC(LG(LS(NUMBER_4)))  &none              &kp N7  &kp N8  &kp N9                   &kp F1   &kp F2   &kp F3        &kp F4        &kp F5          &none
-&none       &none                     &none              &kp N4  &kp N5  &kp N6                   &kp F6   &kp F7   &kp F8        &kp F9        &kp F10         &none
-&none       &ext_power EP_ON          &ext_power EP_OFF  &kp N1  &kp N2  &kp N3  &none    &none   &kp F11  &kp F12  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_CLR_ALL  &none
-                                                         &none   &kp N0  &none   &none    &trans  &none    &none    &none
+&sys_reset  &soft_off         &none              &none           &none  &none                                      &none   &none   &none   &none   &none  &none
+&none       &kp F1            &kp F5             &kp F12         &none  &kp LC(LG(LS(NUMBER_4)))                   &kp N7  &kp N8  &kp N9  &none   &none  &none
+&none       &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_CLR_ALL  &none  &none                                      &kp N4  &kp N5  &kp N6  &kp N0  &none  &none
+&none       &ext_power EP_ON  &ext_power EP_OFF  &none           &none  &none                     &none    &none   &kp N1  &kp N2  &kp N3  &none   &none  &none
+                                                 &none           &none  &none                     &none    &trans  &none   &none   &none
             >;
         };
 
         Mouse {
             bindings = <
-&none  &none  &none       &none             &none        &none                               &none  &none      &none                     &none      &none  &none
-&none  &none  &none       &none             &none        &kp C_VOLUME_UP                     &none  &none      &kp C_AC_SCROLL_UP        &none      &none  &none
-&none  &none  &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT   &kp C_VOLUME_DOWN                   &none  &mkp LCLK  &mkp MCLK                 &mkp RCLK  &none  &none
-&none  &none  &kp K_CUT   &kp K_COPY        &kp K_PASTE  &kp K_MUTE         &none     &none  &none  &none      &kp LA(C_AC_SCROLL_DOWN)  &none      &none  &none
-                          &none             &none        &none              &trans    &none  &none  &none      &none
+&none  &none  &none      &none       &none        &none                               &none  &none      &none                 &none      &none  &none
+&none  &none  &none      &none       &none        &kp C_VOLUME_UP                     &none  &none      &mwh SCROLL_VERT 15   &none      &none  &none
+&none  &none  &none      &none       &none        &kp C_VOLUME_DOWN                   &none  &mkp LCLK  &mkp MCLK             &mkp RCLK  &none  &none
+&none  &none  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_MUTE         &none     &none  &none  &none      &mwh SCROLL_VERT -15  &none      &none  &none
+                         &none       &none        &none              &trans    &none  &none  &none      &none
             >;
         };
     };
